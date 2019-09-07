@@ -1,0 +1,39 @@
+2019-09-07 16:11:40: wuwuwuwu
+2019-09-07 16:11:40: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:41: wuwuwuwu
+2019-09-07 16:11:42: TypeError: 1 is not a function
+2019-09-07 16:11:42:     at Server.http.createServer (/Users/tangjingcheng/Desktop/Github/learnNodeByVideo/pm2-test/app.js:5:4)
+2019-09-07 16:11:42:     at Server.emit (events.js:182:13)
+2019-09-07 16:11:42:     at Server.<anonymous> (/usr/local/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+2019-09-07 16:11:42:     at parserOnIncoming (_http_server.js:672:12)
+2019-09-07 16:11:42:     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+2019-09-07 16:11:42: TypeError: 1 is not a function
+2019-09-07 16:11:42:     at Server.http.createServer (/Users/tangjingcheng/Desktop/Github/learnNodeByVideo/pm2-test/app.js:5:4)
+2019-09-07 16:11:42:     at Server.emit (events.js:182:13)
+2019-09-07 16:11:42:     at Server.<anonymous> (/usr/local/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+2019-09-07 16:11:42:     at parserOnIncoming (_http_server.js:672:12)
+2019-09-07 16:11:42:     at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+2019-09-07 16:12:33: wuwuwuwu
+2019-09-07 16:12:33: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:34: wuwuwuwu
+2019-09-07 16:12:38: wuwuwuwu
+2019-09-07 16:12:38: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:39: wuwuwuwu
+2019-09-07 16:12:40: wuwuwuwu

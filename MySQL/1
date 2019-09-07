@@ -1,0 +1,46 @@
+// 显示 指定名称 的数据库
+use myblog;
+
+// 显示 数据库 的所有表；-- 表示注释
+-- show tables;
+
+// 增加新数据
+insert into users (username, `password`, relaname) values ('zhangsan', '1234', '张三');
+
+// users表里查询出所有的数据
+select * from users;
+
+// users表里只查询出 id,username 这两列数据
+select id,username from users;
+
+// users表里查询出 username === 'zhangsan' 的数据
+select * from users where username='zhangsan';
+
+// users表里查询出 username !== 'zhangsan' 的数据
+select * from users where username<>'zhangsan';
+
+// users表里查询出 username === 'zhangsan' && password === '1234' 的数据
+select * from users where username='zhangsan' and password='1234';
+
+// users表里查询出 username === 'zhangsan' || password === '123' 的数据
+select * from users where username='zhangsan' or password='123';
+
+// users表里查询出 username.include('s') 的数据
+select * from users where username like '%s%';
+
+// users表里查询出 username.include('s') 的数据，然后倒序排列
+select * from users where username like '%s%' order by id desc;
+
+// 解除 输入的安全模式
+SET SQL_SAFE_UPDATES = 0;
+
+// username === 'lisi' 的数据中的 relaname更新为 '李四2'
+update users set relaname='李四2' where username='lisi';
+
+// 删除 username === 'lisi' 的数据
+delete from users where username='lisi';
+
+
+
+
+
